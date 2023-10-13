@@ -18,7 +18,7 @@ starting from expiriencing working project with overseas vendor,
 installing a new software integrated machine, i was blown away with the complexity of the installation.
 from there i start noticing engineering in different prespective, that machine in near future cannot operate just by transfering energy from one motion to become another motion anymore<br>
 `the future` is about how to build an integrated system that can works with machine part dynamicaly to increase output rate, seeing this if i only look and dont improve i will be left behind technology, thats why im here.
-
+![Alt text](image.png)
 ## My links :rocket:
 * __find me On :__ 
 
