@@ -11,9 +11,10 @@ hi!, my name is prasta, im a Mechanical engineer.
 
 <img src="assets/WhatsApp%20Image%202023-10-10%20at%2016.24.56.jpeg" width=40%> 
 
-Iam an expirienced for almost 3 years as `Mechanical Engineer`, my main focus is on sparepart replacement and mechanical configuration.Im now currently working in paper and forestry industry, and now , im starting a new journey to Learn about `software Engineering` field in __RevoU__ bootcamp Academy.
+Iam an expirienced for almost 3 years as `Mechanical Engineer`, my main focus is on sparepart replacement and mechanical configuration. i currently working in paper and forestry industry, and now , im starting a new journey to Learn about `software Engineering` field in __RevoU__ bootcamp Academy.
+
 * __how i end up here__ :
-starting from working project with overseas vendor,
+starting from expiriencing working project with overseas vendor,
 installing a new software integrated machine, i was blown away with the complexity of the installation.
 from there i start noticing engineering in different prespective, that machine in near future cannot operate just by transfering energy from one motion to become another motion anymore<br>
 `the future` is about how to build an integrated system that can works with machine part dynamicaly to increase output rate, seeing this if i only look and dont improve i will be left behind technology, thats why im here.
@@ -27,8 +28,10 @@ __linkedin__![linkedin](assets/icons8-linkedin-30.png)| [yosephat Harwindra](htt
 |__github__ ![github](assets/icons8-github-30.png)|[blackpossum](https://github.com/Blackpossum)
 |__mail me__![gmail](assets/icons8-gmail-30.png)| [yosaphatharwindra@gmail.com](yosaphatharwindra@gmail.com)|
 
-## My Technical Skill :wrench:
+
+## My Technical programming skill :wrench:
  * self-taught skill:
+    - `Markdown`
     - `HTML`
     - basic `CSS`
     - `javascript`
@@ -36,15 +39,22 @@ __linkedin__![linkedin](assets/icons8-linkedin-30.png)| [yosephat Harwindra](htt
     - `Terminal & CLI`
     - `git & github`
  * another skill :
-  - __AWS EC2 & VPC__ 
+  - __Dev-Ops :__ CALMS framework 
+  - __AWS EC2 & VPC__ - AWS training
   - __Computer Networking__ - _by google_
+  you can check the certificate on my [Linkedin account](https://www.linkedin.com/in/yosaphat-harwindra-82aa54194/details/certifications/)
 
 ## My favorite sites :globe_with_meridians:
-   - __for serching resources__ - [google](https://www.google.com)
-   - __for Learning Material__ - [microsoft learn](https://learn.microsoft.com), [MDN](https://www.developer.mozila.com),[codewars](https://www.codewars.com)
-   - __problem & Solution__ - [chatGPT](https://chat.openai.com/)
-   - __for music__ - [spotify](https://www.spotify.com) 
-   - __color palette__ - [coolours](https://coolors.co/).
+| platform | links | usage |
+|----------|-------|-------|
+| google   |https://www.google.com | __for serching resources__ |
+| microsoft learn |https://learn.microsoft.com|__for Learning Material__|
+| MDN  & ChatGPT| https://www.developer.mozila.com|__problem & Solution__|
+||https://chat.openai.com/|__problem & Solution__|
+|codewars|https://www.codewars.com|__exercise with code & algorithm__|
+| music |https://www.spotify.com|__refreshing__|
+|coolors|https://coolors.co|__coolors palette__|
+    
 
 
 ## My code Sniplet :books:
