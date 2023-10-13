@@ -12,7 +12,7 @@ hi!, my name is prasta, im a Mechanical engineer.
 
 Iam an expirienced for almost 3 years as `Mechanical Engineer`, my main focus is on sparepart replacement and mechanical configuration.Im now currently working in paper and forestry industry, and now , im starting a new journey to Learn about `software Engineering` field in __RevoU__ bootcamp Academy.
 * __how i end up here__ :
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/XEoiOVs9mUIcUpxIKR" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/space-robots-nft-rababa-XEoiOVs9mUIcUpxIKR">via GIPHY</a></p>
+![teaser](<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/XEoiOVs9mUIcUpxIKR" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/space-robots-nft-rababa-XEoiOVs9mUIcUpxIKR">via GIPHY</a></p>)
 starting from working project with overseas vendor,
 installing a new software integrated machine, i was blown away with the complexity of the installation.
 from there i start noticing engineering in different prespective, that machine in near future cannot operate just by transfering energy from one motion to become another motion anymore<br>
