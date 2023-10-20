@@ -99,7 +99,7 @@ __git__
 
 # Website project
     hi!, there is an update, im working on a new static web project 
-if you want to see, i provide u the link [coala felaas](https://rococo-pavlova-af74e4.netlify.app/)
+if you want to see, i provide you the link netlify app :https://rococo-pavlova-af74e4.netlify.app/
 check it, if you have a suggestion you can connect with me in my github account [blackpossum](https://github.com/Blackpossum)<br>
 
 ## what's the website about?
