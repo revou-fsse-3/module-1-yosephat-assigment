@@ -96,4 +96,13 @@ __git__
     git add
     git commit
 ```
+
+# Website project
+    hi!, there is an update, im working on a new static web project 
+if you want to see, i provide you the link netlify app :https://rococo-pavlova-af74e4.netlify.app/
+check it, if you have a suggestion you can connect with me in my github account [blackpossum](https://github.com/Blackpossum)<br>
+
+## what's the website about?
+it's about koala activist, basicaly its a landing page for join a koala activist comunity, i inspire with the weather these days is so hot,<br>
+so i been thinking about what animal live in a drought hot place and surviving it, and viola....koala<br>
 _yosephat harwindra@10/2023_
