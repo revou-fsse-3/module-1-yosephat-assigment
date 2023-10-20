@@ -4,7 +4,7 @@ body{
     background-color: rgba(2, 2, 15, 0.93);
     color:whitesmoke;
 }
-
+/* navigation */
 nav{
     height: auto;
     display:flex;
@@ -22,7 +22,7 @@ nav > img{
     color: #fff;
     padding: 10px;
   }
-  
+  /* for sticky navbar function  */
   #mainNavbar.sticky {
     position: fixed;
     top: 0;
@@ -30,7 +30,7 @@ nav > img{
     z-index: 100;
     animation: slide-down 0.5s;
   }
-  
+  /* scroll % untuk triggers */
   @keyframes slide-down {
     0% {
       top: -50px;
@@ -65,6 +65,7 @@ a{
     display: flex;
     margin-left: auto;
 }
+/* header banner  */
 
 header{
     image-rendering:pixelated;
@@ -105,14 +106,14 @@ header{
     margin-top: 0%;
     padding-bottom: 0%;
 }
-
+/* content navigation */
 #content-nav{
     display: flex;
     height: 8px;
     justify-content: flex-start;
     padding-bottom: 1px;
 }
-
+/* know more section */
 #know-more{
     background-color: white;
     color: black;
@@ -129,7 +130,7 @@ header{
     color: white;
     background-color: black;
 }
-
+/* buton go to wwf site */
 #go-to{
     font-size: medium;
     width: 150px;
@@ -143,12 +144,12 @@ header{
     cursor: pointer;
     
 }
-
+/* hover animation #go-to button */
 #go-to:hover{
     background-color:yellow;
     color: black;
 }
-
+/* button donation */
 #donation{
     font-size: medium;
     width: 100px;
@@ -161,12 +162,12 @@ header{
     transition-duration: 0,8s;
     cursor: pointer;
 }
-
+/* hover for #donation */
 #donation:hover{
     background-color:yellowgreen;
 
 }
-
+/* koala section */
 #koala{
     display: flex;
     padding-bottom: 25px;
@@ -197,7 +198,7 @@ b{
 i{
     color:yellow
 }
-
+/* habitat article */
 #habitat{
     display: flex;
     color: black;
@@ -222,7 +223,7 @@ i{
     padding-right: 10px;
     padding-bottom: 25px;
 }
-
+/* join club article */
 #join-club{
     text-align: center;
 }
@@ -233,7 +234,7 @@ i{
     margin-left: 150px;
     text-align: left;
 }
-
+/* form */
 #form {
     text-align: center;
     background-color: #000000;
