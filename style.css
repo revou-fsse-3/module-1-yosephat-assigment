@@ -16,6 +16,30 @@ nav > img{
     padding: 15px;
 }
 
+#mainNavbar {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #mainNavbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    animation: slide-down 0.5s;
+  }
+  
+  @keyframes slide-down {
+    0% {
+      top: -50px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  
 ul{
     display: flex;
     list-style: none;
@@ -100,7 +124,7 @@ header{
 }
 
 #headerfact > p {
-    justify-items: end;
+    margin-left: 31%;
     width: fit-content;
     color: white;
     background-color: black;
@@ -115,8 +139,16 @@ header{
     border-radius: 10px;
     border: 2px gray solid;
     border-style:ridge;
+    transition-duration: 0.4s;
+    cursor: pointer;
     
 }
+
+#go-to:hover{
+    background-color:yellow;
+    color: black;
+}
+
 #donation{
     font-size: medium;
     width: 100px;
@@ -124,8 +156,15 @@ header{
     color: white;
     background-color: rgb(255, 179, 0);
     border-radius: 10px;
-    border: 2px grey solid;
+    border: 2px yellow solid;
     border-style:ridge;
+    transition-duration: 0,8s;
+    cursor: pointer;
+}
+
+#donation:hover{
+    background-color:yellowgreen;
+
 }
 
 #koala{
@@ -183,3 +222,63 @@ i{
     padding-right: 10px;
     padding-bottom: 25px;
 }
+
+#join-club{
+    text-align: center;
+}
+#description{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    text-align: left;
+}
+
+#form {
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #subscribe-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #subscribe-form input[type="email"],
+  #subscribe-form input[type="checkbox"] {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #subscribe-form button {
+    padding: 10px;
+    font-size: large;
+    background-color: #333;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+#subscribe-form button:hover{
+    color: orange;
+    background-color: azure;
+}
+  #subscribe-form p {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  
