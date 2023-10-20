@@ -104,5 +104,5 @@ check it, if you have a suggestion you can connect with me in my github account 
 
 ## what's the website about?
 it's about koala activist, basicaly its a landing page for join a koala activist comunity, i inspire with the weather these days is so hot,<br>
-so i been thinking about what animal live in a drought hot place and surviving it, and viola....koala
+so i been thinking about what animal live in a drought hot place and surviving it, and viola....koala<br>
 _yosephat harwindra@10/2023_
