@@ -16,6 +16,30 @@ nav > img{
     padding: 15px;
 }
 
+#mainNavbar {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #mainNavbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    animation: slide-down 0.5s;
+  }
+  
+  @keyframes slide-down {
+    0% {
+      top: -50px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  
 ul{
     display: flex;
     list-style: none;
@@ -115,8 +139,16 @@ header{
     border-radius: 10px;
     border: 2px gray solid;
     border-style:ridge;
+    transition-duration: 0.4s;
+    cursor: pointer;
     
 }
+
+#go-to:hover{
+    background-color:yellow;
+    color: black;
+}
+
 #donation{
     font-size: medium;
     width: 100px;
@@ -124,8 +156,15 @@ header{
     color: white;
     background-color: rgb(255, 179, 0);
     border-radius: 10px;
-    border: 2px grey solid;
+    border: 2px yellow solid;
     border-style:ridge;
+    transition-duration: 0,8s;
+    cursor: pointer;
+}
+
+#donation:hover{
+    background-color:yellowgreen;
+
 }
 
 #koala{
