@@ -255,7 +255,7 @@ i{
   }
   
   #subscribe-form input[type="email"],
-  #subscribe-form input[type="checkbox"] {
+  #subscribe-form input[type="text"] {
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
