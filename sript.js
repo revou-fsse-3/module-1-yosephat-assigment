@@ -14,6 +14,9 @@ document.getElementById("subscribe-form").addEventListener("submit", function(ev
     const comunityName = document.getElementById("Comunity").value;
     const email = document.getElementById("email").value;
     alert(`Thank you for submitting your information. We have received your comunity name: ${comunityName} and email: ${email}. We will send the registration form to your email.`);
+    // kosongkan input field
+    comunityName.value = '';
+    email.value = '';
 });
 
 
