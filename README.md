@@ -96,4 +96,9 @@ __git__
     git add
     git commit
 ```
+
+# Website project
+hi!, there is an update, im working on a new static web project 
+if you want to see, i provide u the link [link](https://rococo-pavlova-af74e4.netlify.app/)
+check it, if you have a suggestion you can connect with me in my github account [blackpossum](https://github.com/Blackpossum)
 _yosephat harwindra@10/2023_
