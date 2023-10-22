@@ -1,6 +1,6 @@
 const navbar = document.getElementById("mainNavbar");
 function makeNavbarSticky() {
-  if (window.scrollY > 0) {
+  if (window.scrollY > 0 && window.screen.availWidth > 400){
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");

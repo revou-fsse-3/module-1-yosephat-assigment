@@ -6,40 +6,53 @@ body{
 }
 /* navigation */
 nav{
-    height: auto;
+    height: 60px;
     display:flex;
     background-color: black;
     color: whitesmoke;
+    align-items: center;
 }
 
-nav > img{
-    padding: 15px;
+nav > h1{
+    font-size: 2em;
 }
 
 #mainNavbar {
     position: relative;
     background-color: #333;
     color: #fff;
-    padding: 10px;
-  }
+}
+
+
   /* for sticky navbar function  */
   #mainNavbar.sticky {
     position: fixed;
-    top: 0;
+    top: 0%;
     width: 100%;
-    z-index: 100;
+    z-index: 1;
     animation: slide-down 0.5s;
-  }
+}
+  
   /* scroll % untuk triggers */
   @keyframes slide-down {
     0% {
-      top: -50px;
+      top: -60px;
     }
     100% {
       top: 0;
     }
-  }
-  
+}
+
+#navbrand{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+#navbrand > img{
+    padding: 0px 10px;
+    border-radius: 100%;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -48,17 +61,27 @@ ul{
 li{
     margin:5px 10px;
     align-self:center ;
-    color: azure;
     text-decoration: none;
     list-style: none;
+    transition-duration: 0.4px ease;
+    cursor: pointer;
+}
+
+li:hover{
+    border-bottom: orange 2px solid;
 }
 
 a{
     color: rgb(255, 255, 255);
     list-style: none;
     text-decoration: none;
-    text-rendering: geometricPrecision;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
+a:hover{
+    color: lime;
+}
+
 
 
 #nav-link{
@@ -115,9 +138,12 @@ header{
 }
 /* know more section */
 #know-more{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     color: black;
     text-align: center;
+    align-items: center;
     margin-bottom: 10px;
     padding-bottom: 20px;
     height: 60%;
@@ -125,7 +151,6 @@ header{
 }
 
 #headerfact > p {
-    margin-left: 31%;
     width: fit-content;
     color: white;
     background-color: black;
@@ -179,6 +204,7 @@ header{
     margin-left: 4%;
     flex-direction: column;
     justify-content: center;
+    font-size: large;
 }
 
 #koala-article{
@@ -189,6 +215,7 @@ header{
     padding-left: 20px;
     padding-right: 10px;
     border-left: 1px orangered solid;
+    font-size: 20px;
 }
 
 b{
@@ -214,10 +241,23 @@ i{
     padding-left:15px;
     padding-right: 15px;
     border-right: 1.5px orange solid;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+
+#video-embed{
+    display: flex;
+    width: 800px;
+    height: 500px;
 }
 
 #habitat-heading{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     width: auto;
+    align-items: centers;
     text-align: center;
     margin-left: 3%;
     padding-right: 10px;
@@ -226,12 +266,13 @@ i{
 /* join club article */
 #join-club{
     text-align: center;
+    height: 500px;
+    font-size: 20px;
 }
 #description{
-    width: 80%;
     display: flex;
-    justify-content: center;
-    margin-left: 150px;
+    align-items: center;
+    padding: 0px 20px;
     text-align: left;
 }
 /* form */
