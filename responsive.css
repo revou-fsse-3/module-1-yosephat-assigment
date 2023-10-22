@@ -1,0 +1,7 @@
+/* responsive style */
+
+@media (min-widht:375) {
+    body{
+        width: 375px;
+    }
+}
