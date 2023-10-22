@@ -13,10 +13,6 @@ nav{
     align-items: center;
 }
 
-nav > img{
-    padding: 15px;
-}
-
 nav > h1{
     font-size: 2em;
 }
@@ -46,7 +42,17 @@ nav > h1{
       top: 0;
     }
 }
-  
+
+#navbrand{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+#navbrand > img{
+    padding: 0px 10px;
+    border-radius: 100%;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -132,9 +138,12 @@ header{
 }
 /* know more section */
 #know-more{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     color: black;
     text-align: center;
+    align-items: center;
     margin-bottom: 10px;
     padding-bottom: 20px;
     height: 60%;
@@ -142,7 +151,6 @@ header{
 }
 
 #headerfact > p {
-    margin-left: 31%;
     width: fit-content;
     color: white;
     background-color: black;
@@ -196,6 +204,7 @@ header{
     margin-left: 4%;
     flex-direction: column;
     justify-content: center;
+    font-size: large;
 }
 
 #koala-article{
@@ -206,6 +215,7 @@ header{
     padding-left: 20px;
     padding-right: 10px;
     border-left: 1px orangered solid;
+    font-size: 20px;
 }
 
 b{
@@ -232,6 +242,8 @@ i{
     padding-right: 15px;
     border-right: 1.5px orange solid;
     padding-bottom: 25px;
+    font-size: 20px;
+    font-family:sans-serif;
 }
 
 #video-embed{
@@ -241,7 +253,11 @@ i{
 }
 
 #habitat-heading{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     width: auto;
+    align-items: centers;
     text-align: center;
     margin-left: 3%;
     padding-right: 10px;
@@ -250,12 +266,13 @@ i{
 /* join club article */
 #join-club{
     text-align: center;
+    height: 500px;
+    font-size: 20px;
 }
 #description{
-    width: 80%;
     display: flex;
-    justify-content: center;
-    margin-left: 150px;
+    align-items: center;
+    padding: 0px 20px;
     text-align: left;
 }
 /* form */
