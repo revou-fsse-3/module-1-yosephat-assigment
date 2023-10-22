@@ -10,6 +10,10 @@
         #nav-link{
             margin-left:0%;
         }
+
+        #content-nav{
+            display: none;
+        }
          /* for sticky navbar function  */
       #mainNavbar.sticky {
         position: fixed;
@@ -32,27 +36,33 @@
     
         #video-embed{
             display: flex;
-            width: 100%;
+            width: 50%;
             height: 50%;
         }
-    
+        #content-heading{
+            width:10px;
+        }
         section{
             flex-direction: column;
         }
         
         #habitat{
-            height: 100%;
             flex-direction: column-reverse;
-        }
-        #habitat-article{
-            height:10px;
         }
         #koala{
             align-items: center;
         }
+        #detailer{
+            display: none;
+        }
         #content-heading{
             width: 80%;
     
+        }
+        #habitat-article{
+            margin-left: 0%;
+            padding:5px;
+            width: 100%;
         }
     }
 }
@@ -106,7 +116,7 @@
     }
 }
 
-/* for viewport 900px */
+/* for viewport 1020px */
 @media (max-width:1020px) {
     #mainNavbar{
         position: relative;
