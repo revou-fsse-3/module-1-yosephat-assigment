@@ -30,38 +30,39 @@
             <h1>Coala fellas</h1>
             <P>"a web application for koala conservation and preservance activists"</P>
         </div>
-        <p></p>       
     </header>
 <!-- content navigation -->
     <main>
-        <div id="content-nav">
-            <ul>
-                <li><a href="#"> know more</a></li>
-                <li>>
-                </li>
-                <li><a href="#"> koala</a></li>
-                <li>></li>
-                <li><a href="#"> habitat preservance</a></li>
-                <li>></li>
-                <li><a href="#"> join the club</a></li>
-            </ul>    
-        </div>
 <!-- section untuk main content -->
-        <section id="know-more">
-            <h1>Know more about Koala </h1>
-            <img src="/assets/koala.jpg" width="80px" height="80px" alt="icon">
+        <section id="content-navigation">
+            <div id="content-nav">
+                <ul>
+                    <li><a href="#"> know more</a></li>
+                    <li>>
+                    </li>
+                    <li><a href="#"> koala</a></li>
+                    <li>></li>
+                    <li><a href="#"> habitat preservance</a></li>
+                    <li>></li>
+                    <li><a href="#"> join the club</a></li>
+                </ul>    
+            </div>   
+        </section>
+        <!-- <section id="know-more">
+            <h2>Know more about Koala </h2>
+            <img src="/assets/koala.jpg" width="80" height="80" alt="icon">
             <div id="headerfact">
                 <h2> top 5 fact about them - according to WWF </h2>
                 <P>" discover more about Koalas, all their issues and threat they are facing,and what can you do to help "</P>
                 <button id="go-to" href="https://wwf.org.au/what-we-do/species/koala/">check WWF sites</button>
                 <button id="donation">Donate</button>
             </div>
-        </section>
+        </section> -->
 <!-- section untuk main content koala-->
         <section id="koala">
             <div id="content-heading">
               <h2> what animal is that ?</h2>
-                <img src="/assets/RSwwfau_13259_RSwwfau_13259.png" width="50%" alt="">
+                <img src="/assets/RSwwfau_13259_RSwwfau_13259.png" width="80" height="40" alt="">
             </div>
             <div id="koala-article">
                 <P> According to wikipedia, <b>The koala</b> <i>(Phascolarctos cinereus)</i>, sometimes called koala bear, is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae and its closest living relatives are the wombats. The koala is found in coastal areas of the mainland's eastern and southern regions,
@@ -71,13 +72,13 @@
                     It is also one of several Aboriginal words that made it into International English, alongside e.g. <i>"didgeridoo" and "kangaroo."</i> The generic name, <b><i>Phascolarctos</i></b>, is derived from the Greek words <i>phaskolos "pouch" and arktos "bear"</i>. 
                     The specific name, cinereus, is Latin for "ash coloured".</p>
                     <P id ="detailer">
-                    <img src="/assets/detailer.png" width="70%" alt="detail">
+                    <img src="/assets/detailer.png" width="40%" alt="detail">
                     </P>
                 </div>
         </section>
 <!-- section main content habitat -->
         <section id="habitat">
-            <div id="habitat-article">
+            <article id="habitat-article">
                 <P>The koala's geographic range covers roughly <b>1,000,000 km2 (390,000 sq mi)</b>, and 30 ecoregions. It ranges throughout mainland eastern and southeastern Australia, including the states of Queensland, New South Wales, Victoria, and South Australia.
                     The koala was also introduced to several nearby islands. The population on Magnetic Island represents the northern limit of its range.
                     Fossil evidence shows that the koala's range stretched as far west as southwestern Western Australia during the late Pleistocene.
@@ -86,18 +87,20 @@
                     These partnerships will leverage local expertise and knowledge to prioritise investment and deliver coordinated strategic on-ground actions to protect koalas and their habitat. Partnerships will also be a vehicle for leveraging private sector investment in koala conservation.
                     Key investments and 2026 targets include:
                     <li> $15.7m to deliver up to 8 regional partnerships</li>
-                    <li> $3.9m to support 10+ local councils to develop koala habitat maps</li></P>
-               
-            </div>
+                    <li> $3.9m to support 10+ local councils to develop koala habitat maps</li>
+                </P>
+            </article>
             <div id="habitat-heading">
                 <h2>Distribution & habitat preservance</h2>
-                <iframe id="video-embed" src="https://www.youtube.com/embed/ojowcD3v0ZM" frameborder="0" allowfullscreen></iframe>
-                <img src="/assets/RSwwfau_9360_RSwwfau_9360" width="95%" alt="">
+                <div id="video-container">
+                    <iframe id="video-embed" src="https://www.youtube.com/embed/ojowcD3v0ZM" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <img src="/assets/RSwwfau_9360_RSwwfau_9360" width="95" alt="">
             </div>
         </section>
 <!-- section untuk join the club form  -->
         <section id="join-club">
-            <h1>join the club!</h1>
+            <h2>join the club!</h2>
             <div id="description">
                 <p>join the club for supporting local comunity, The NSW Government will invest $3.9 million to help local councils strategically conserve koala habitat in their local area by developing koala habitat maps.
                     This action will draw on expertise within Local Land Services and the Department of Planning and Environment to assist local councils in carrying out rigorous on-ground ecological assessments and appropriate community consultation.
@@ -105,11 +108,44 @@
                     we also will have annual gathering, please submit your email :
                 </p>
             </div>
-            <div id="form">
-                <h2>Register Your personal or comunity email</h2>
+            <div id="form-container">
+                <h2>Register Your personal or comunity </h2>
                 <form id="subscribe-form">
                     <input type="text" id="Comunity" placeholder="Enter personal or comunity name" required>
                     <input type="email" id="email" placeholder="Enter your email" required>
+                    <input type="password" id="password" placeholder ="Enter your account password" required>
+                <fieldset>
+                    <legend>About your comunity</legend>
+                    <label for="continent">where are your community located: </label>
+                        <div class="location-container">
+                            <select name="continent" id="continent">
+                                <option>--select your continent</option>
+                                <option value="asia">Asia</option>
+                                <option value="africa">Africa</option>
+                                <option value="north-america">North America</option>
+                                <option value="south-america">South America</option>
+                                <option value="europe">Europe</option>
+                                <option value="australia">Australia</option>
+                            </select>
+                        </div>
+                    <label for="members"> how many members do you have :</label>
+                    <div class="members-container">
+                        <input type="radio" name="members" id="category1">
+                        <label for="category1">50-100</label>
+                        <input type="radio" name="members" id="category2">
+                        <label for="category2">100-150</label>
+                        <input type="radio" name="members" id="category3">
+                        <label for="category3">200-more</label>
+                    </div>
+                    <label for="description">tell us about your community: </label>
+                    <div class="text-container">
+                        <textarea name="description" id="community-description" cols="40" rows="5" placeholder="describe your community"></textarea>
+                    </div>
+                </fieldset>
+                    <div id="checkbox-container">
+                        <input type="checkbox" name="terms & condition" id="agree" required>
+                        <label for="agree"> I agree to be send event by email</label>
+                    </div>
                     <button type="submit">submit</button>
                 </form>
             </div>

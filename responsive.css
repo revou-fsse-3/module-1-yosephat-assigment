@@ -1,74 +1,74 @@
 /* responsive style */
-@media (max-width:400px) {
-    @media (max-width:1020px) {
-        #mainNavbar{
-            position: relative;
-            height: auto;
-            flex-direction: column;
-            align-items: center;
-        }
-        #nav-link{
-            margin-left:0%;
-        }
-
-        #content-nav{
-            display: none;
-        }
-         /* for sticky navbar function  */
-      #mainNavbar.sticky {
-        position: fixed;
-        top: 0%;
+@media screen and (max-width:400px) {
+    #mainNavbar{
+        position: relative;
         height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-link{
+        margin-left:0%;
+    }
+
+    #content-nav {
+        display: flex;
+        height: 10px;
+        font-size: smaller;
+        background-color: black;
+    }
+     /* for sticky navbar function  */
+  #mainNavbar.sticky {
+    position: fixed;
+    top: 0%;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    animation: slide-down 0.5s;
+    }
+  
+  /* scroll % untuk triggers */
+  @keyframes slide-down {
+    0% {
+      top: -60px;
+    }
+    100% {
+      top: 0;
+    }
+    }
+
+    #video-embed{
+        width: 50%;
+        height:100%;
+    }
+    #content-heading{
+        width:10px;
+    }
+    section{
+        flex-direction: column;
+    }
+    
+    #habitat{
+        flex-direction: column-reverse;
+    }
+    #koala{
+        align-items: center;
+    }
+    #detailer{
+        display: none;
+    }
+    #content-heading{
+        width: 80%;
+
+    }
+    #habitat-article{
+        margin-left: 0%;
+        padding:5px;
         width: 100%;
-        z-index: 1;
-        animation: slide-down 0.5s;
-        }
-      
-      /* scroll % untuk triggers */
-      @keyframes slide-down {
-        0% {
-          top: -10px;
-        }
-        100% {
-          top: 0;
-        }
-        }
-    
-        #video-embed{
-            display: flex;
-            width: 50%;
-            height: 50%;
-        }
-        #content-heading{
-            width:10px;
-        }
-        section{
-            flex-direction: column;
-        }
-        
-        #habitat{
-            flex-direction: column-reverse;
-        }
-        #koala{
-            align-items: center;
-        }
-        #detailer{
-            display: none;
-        }
-        #content-heading{
-            width: 80%;
-    
-        }
-        #habitat-article{
-            margin-left: 0%;
-            padding:5px;
-            width: 100%;
-        }
     }
 }
 
 /* for viewport of 710 px */
-@media (max-width:710px) {
+@media screen and (max-width:710px) {
     #mainNavbar{
         position: relative;
         height: auto;
@@ -91,10 +91,10 @@
   /* scroll % untuk triggers */
   @keyframes slide-down {
     0% {
-      top: -10px;
+      top: -60px;
     }
     100% {
-      top: 100px;
+      top: 0px;
     }
     }
 
@@ -117,7 +117,7 @@
 }
 
 /* for viewport 1020px */
-@media (max-width:1020px) {
+@media screen and (max-width:1020px) {
     #mainNavbar{
         position: relative;
         height: auto;
@@ -140,10 +140,10 @@
   /* scroll % untuk triggers */
   @keyframes slide-down {
     0% {
-      top: -10px;
+      top: -50px;
     }
     100% {
-      top: 100px;
+      top: 0px;
     }
     }
 
