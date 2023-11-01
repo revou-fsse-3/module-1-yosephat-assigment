@@ -1,6 +1,6 @@
 const navbar = document.getElementById("mainNavbar");
 function makeNavbarSticky() {
-  if (window.scrollY > 0 && window.screen.availWidth > 400){
+  if (window.scrollY > 0){
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
@@ -15,8 +15,8 @@ document.getElementById("subscribe-form").addEventListener("submit", function(ev
     const email = document.getElementById("email").value;
     alert(`Thank you for submitting your information. We have received your comunity name: ${comunityName} and email: ${email}. We will send the registration form to your email.`);
     // kosongkan input field
-    comunityName.value = '';
-    email.value = '';
+    document.getElementById("comunityName").value = '';
+    document.getElementById("email").value = '';
 });
 
 
