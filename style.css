@@ -16,7 +16,12 @@ nav{
 nav > h1{
     font-size: 2em;
 }
-
+#menu-toggle{
+    display: none;
+}
+#hamburger{
+    display: none;
+}
 #mainNavbar {
     position: relative;
     background-color: #333;
