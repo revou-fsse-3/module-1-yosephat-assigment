@@ -1,36 +1,17 @@
-/* Common styles outside media queries */
-/* #mainNavbar {
-    position: relative;
-    height: auto;
-    flex-direction: ;
-    align-items: center;
-  }
-  
-  #nav-link {
-    margin-left: 0;
-  }
-   */
-  /* Keyframes for 400px media query */
-  @keyframes slide-down-400px {
-    0% {
-      top: -60px;
-    }
-    100% {
-      top: 0;
-    }
-  }
-  
-  @keyframes slide-down-1020px {
-    0% {
-      top: -50px;
-    }
-    100% {
-      top: 0px;
-    }
-  }
   
   /* Media query for 400px */
   @media screen and (max-width: 600px) {
+    header{
+        background-size: contain;
+        background-position-x: center;
+        height:300px;
+    }
+    #banner{
+      width: 80%;
+      font-size: smaller;
+      flex-direction: column;
+      justify-content:center;
+    }
     nav{
         height: auto;
         flex-direction: column;
@@ -84,6 +65,93 @@
       z-index: 1;
       animation: slide-down-400px 0.5s;
     }
+    .grid-container{
+      grid-template-columns:auto;
+      justify-content: center;
+      gap:30px
+    }
+/* grid view for mobile */
+  .container4{
+    max-width: 400px;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .content-article{
+    width: 400px;
+    margin:10px;
+  }
+.carousel-container{
+  grid-column: 1;
+  grid-row: 2;
+}
+.main-image{
+  grid-column: 1;
+  grid-row: 3;
+}
+.main-event{
+  width: 400px;
+  height: auto;
+}
+#main-event > img{
+  width:100%;
+
+}
+#card-content{
+  flex-direction: column;
+  width: 450px;
+}
+#card-content > img{
+  width: 300px;
+  height: 250px;
+  padding-top: 10px;
+}
+
+.container1{
+  grid-column: 1;
+  grid-row: 4;
+}
+#card-container1{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  height: 400px;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  flex-direction: row;
+}
+
+.container2{
+  grid-column: 1;
+  grid-row: 5;
+}
+#card-container2{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  height: 400px;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  flex-direction: row;
+}
+.container3{
+  grid-column: 1;
+  grid-row: 6;
+}
+#card-container3{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+  height: 400px;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 0px 8px 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  flex-direction: row;
+}
   
     #content-heading {
       width: 10px;
