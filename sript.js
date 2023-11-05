@@ -1,3 +1,4 @@
+// sticky navbar animation 
 const navbar = document.getElementById("mainNavbar");
 function makeNavbarSticky() {
   if (window.scrollY > 0){
@@ -8,6 +9,20 @@ function makeNavbarSticky() {
 }
 
 window.addEventListener("scroll", makeNavbarSticky);
+// animation using Intersection observer
+const banner = document.querySelector("#banner");
+let observer = new IntersectionObserver(entries => {
+  if (entries[0].isIntersecting) {
+    banner.style.opacity = 1;
+  }
+});
+
+// observe #banner element
+observer.observe(banner);
+
+const scrolledBanner = document.getElementById("banner");
+Observer.observe(scrolledBanner)
+
 
 document.getElementById("subscribe-form").addEventListener("submit", function(event) {
     event.preventDefault();
