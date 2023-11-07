@@ -504,7 +504,7 @@ i{
 
 #habitat-heading{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     width: auto;
     align-items: centers;
@@ -516,8 +516,9 @@ i{
 /* join club article */
 #join-club{
     text-align: center;
-    height: 500px;
+    height: auto;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 #description{
     display: flex;
@@ -606,13 +607,161 @@ textarea#community-description {
     border-radius: 4px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+}
 #subscribe-form button:hover{
     color: orange;
     background-color: azure;
 }
-  #subscribe-form p {
+#subscribe-form p {
     font-size: 0.8rem;
     text-align: left;
-  }
-  
+}
+
+/* footer baby footer */
+footer{
+    background-color:#333;
+    color: white;
+    padding: 25px;
+    height:auto;
+}
+
+#footer-items ,#listfoot {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    padding: 7px;
+}
+
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 800px;
+    padding: 5px;
+    transition: ease 0.6s;
+    color:#a7c957;
+}
+
+h3:hover{
+    transform:translate(-0.5rem, -1ex);
+    text-shadow: 10px 15px orange;
+}
+
+
+#hover-icon{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    transition: ease-in-out 0.8s;
+}
+
+#hover-icon:hover{
+    background-position:0 -100%;
+    color: black;
+    background-color: white;
+    translate: 5px;
+    border-radius: 5px;
+}
+/* 
+.SiteMap-container .help .comunity-forum .newsletter{
+    width: 300px;
+    height: 180px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.comunity-forum{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border-right: 1px solid orange;
+}
+.SiteMap-container{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border-right: 1px solid orange;
+}
+
+.help{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    border-right: 1px solid orange;
+}
+#container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+#foot{
+    padding-right: 20px;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 900;
+    color: #a7c957;
+}
+
+#send{
+    font-size: 15px;
+    color: black;
+    background-color: orange;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    padding-left: 0;
+}
+
+#lang{
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color:orange;
+    font-family: monospace;
+    font-size: 15px;
+}
+#lang:hover{
+    background-color: black;
+}
+
+.email{
+    width: 200px;
+    height: 30px;
+    border-color: white;
+    border-radius: 15px;
+    padding:2px
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-left: 30px;
+    align-items: center;
+}
+
+#Social{
+    display: flex;
+    width: fit-content;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#Social i {
+    padding: 5px;
+}
