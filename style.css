@@ -618,7 +618,7 @@ textarea#community-description {
 }
 
 /* footer baby footer */
-footer{
+/* footer{
     background-color:#333;
     color: white;
     padding: 25px;
@@ -664,7 +664,7 @@ h3:hover{
     background-color: white;
     translate: 5px;
     border-radius: 5px;
-}
+} */
 /* 
 .SiteMap-container .help .comunity-forum .newsletter{
     width: 300px;
@@ -673,7 +673,7 @@ h3:hover{
     display: flex;
     flex-direction: column;
 } */
-
+/* 
 
 .comunity-forum{
     display: flex;
@@ -764,4 +764,4 @@ h3:hover{
 
 #Social i {
     padding: 5px;
-}
+} */
